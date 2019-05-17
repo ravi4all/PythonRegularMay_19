@@ -1,0 +1,13 @@
+File Handling
+
+1. Text
+2. Binary
+
+i. open file
+ii. read/write file
+iii. close file
+
+Modes (r - read, w - write, a - append, b - binary)
+- r/w/a
+- r+/w+/a+
+- rb/wb/ab
