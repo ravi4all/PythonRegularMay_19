@@ -23,3 +23,14 @@ data = ' '.join(data)
 print(data)
 summary = source.find('div', class_='summary_text')
 print(summary.text.strip())
+
+links = source.findAll('a',class_='quicklink')
+#print(links)
+url2 = "https://www.imdb.com" + links[2]['href']
+
+http = url.urlopen(url2)
+source = bs4.BeautifulSoup(http)
+titles = source.findAll('a', class_='title')
+for item in titles:
+    print(item.text)
+
