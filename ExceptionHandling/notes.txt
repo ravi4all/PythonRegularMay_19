@@ -1,0 +1,12 @@
+EXCEPTION HANDLING
+
+- pre defined  = BaseException
+
+try : 	 logic
+except : handle exceptions
+else : 	 either else will execute or except will
+finally : it will always execute
+
+- user defined
+raise
+assert
